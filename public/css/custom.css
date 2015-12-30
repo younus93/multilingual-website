@@ -1,0 +1,33 @@
+.to-tp
+{
+	background-color: #006db7;
+	width: auto;
+	color: white;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.to-tp h3
+{
+	color: white;
+}
+
+.to-tp p
+{
+	color: white;
+	margin-bottom: 5px;
+}
+
+.to-tp .service-icon-left-boxed
+{	
+	background-color: #006db7;
+}
+
+.to-tp .btn
+{
+	background-color: white;
+	float: none;
+	margin-left: 20%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
