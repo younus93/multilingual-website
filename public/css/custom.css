@@ -33,6 +33,10 @@
 }
 
 .ta p{
-	font-size: 1.2em;
+	font-size: 1.4em;
 	/*line-height: 25px;*/
+}
+
+.ta .fa-ul{
+	font-size: 1.4em;
 }
