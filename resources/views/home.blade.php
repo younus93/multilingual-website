@@ -16,7 +16,7 @@
                     data-hide-effect="fade"
                     data-delay="300"
                         >
-                    Making
+                    Simplified
                 </h2>
 
                 <h2 class="ms-layer pi-caption01"
@@ -30,16 +30,6 @@
                     Transportation
                 </h2>
 
-                <h2 class="ms-layer pi-caption01"
-                    style="left: 100px; top: 460px;"
-                    data-type="text"
-                    data-effect="left(short)"
-                    data-duration="300"
-                    data-hide-effect="fade"
-                    data-delay="900"
-                        >
-                    Easy
-                </h2>
 
             </div><!-- .ms-slide end -->
         </div>
