@@ -13,11 +13,11 @@ return [
     'transporter_base'          =>  'Huge Transporter base',
     'transporter_base_msg'      =>  'Its time to stop worrying about finding loads for your trucks. You are assured to run your trucks with full loads all year long irrespective of the month or season or market condition.',
     'real_time_tracking'        =>  'Real Time Tracking',
-    'real_time_tracking_msg'    =>  'All trucks matched through TruckJee are equiped with realtime GPS Tracking systems. It is time you stop worrying about the location of your cargo.',
+    'real_time_tracking_msg'    =>  'All trucks matched through TruckJee are equipped with realtime GPS Tracking systems. It is time you stop worrying about the location of your cargo.',
     'accessibility'             =>  'Accessibility',
     'accessibility_msg'         =>  'TruckJee makes your transportation activities easy and accessible. Whether you are sitting in your office or taking a vacation, you can monitor your transportation activities at ease.',
-    'more_roi'                  =>  'More return on Investments',
-    'more_roi_msg'              =>  'whether you are a transporter or a fleet owner, TruckJee enables you to run your business all year long. Watch your business yeild more by using TruckJee.',
+    'more_roi'                  =>  'More returns on Investments',
+    'more_roi_msg'              =>  'Whether you are a transporter or a fleet owner, TruckJee enables you to run your business all year long. Watch your business yield more by using TruckJee.',
     'online_portal'             =>  'Online Portal',
     'online_portal_msg'         =>  'All your transportation activities are available at one place. Exhaustive documentation and automatic monitoring ensures that you are never lost for information when you need it.',
 
@@ -39,7 +39,7 @@ return [
     'are_truck'             =>  'Are you a Truck Owner?',
     'are_transporter'       =>  'Are you a Transporter?',
     'are_truck_msg'         =>  'TruckJee enables you to run your trucks all around the year with full loads.',
-    'are_transporter_msg'   =>  'TruckJee garuntees you atleast 8-20% reduction in your truck hiring cost.',
+    'are_transporter_msg'   =>  'TruckJee guarantees you atleast 8-20% reduction in your truck hiring cost.',
     'know_more'             =>  'Know more',
 
     /*
@@ -75,7 +75,7 @@ return [
     */
     'the_complete_solution'         => 'THE COMPLETE SOLUTION',
     'the_complete_solution_heading' => 'We offer you a large pool of verified truck owners across the country to match your transportation needs.',
-    'the_complete_solution_msg'     => 'TruckJee enables any Transporter to find trucks in any region across the country. These truck owners are verified and are digitally available online to track. When using TruckJee to hire trucks, your scope of truck hiring increases drastically which inturn reduces your truck hiring costs by 8-20%. Identifying empty trucks which are waiting for return loads, or finding truck owners who can deliver trucks at your expected cost is made easy using TruckJees transparent truck hiring marketplace.',
+    'the_complete_solution_msg'     => "TruckJee enables any Transporter to find trucks in any region across the country. These truck owners are verified and are digitally available online to track. When using TruckJee to hire trucks, your scope of truck hiring increases drastically which in turn reduces your truck hiring costs by 8-20%. Identifying empty trucks which are waiting for return loads, or finding truck owners who can deliver trucks at your expected cost is made easy using TruckJee's transparent truck hiring marketplace.",
     'extra_mile'                    => 'Giving you the extra mile',
     'q1'                            => 'Completely free to use.',
     'q2'                            => 'Free Online Transaction ERP',
@@ -83,7 +83,7 @@ return [
     'q4'                            => 'Enables quality measurement and monitoring',
     'step_by_step'                  => 'TAKING IT STEP BY STEP',
     'requirement'                   => 'Requirement',
-    'requirement_msg'               => 'Input your source, destination, type of truck required, date of requirement, etc. on to TruckJees Requirement central.',
+    'requirement_msg'               => "Input your source, destination, type of truck required, date of requirement, etc. on to TruckJee's Requirement central.",
     'auction'                       => 'Auction',
     'auction_msg'                   => 'We articulate your requirements as an auction among all truck operators having empty trucks at your source.',
     'selection'                     => 'Selection',
@@ -150,7 +150,7 @@ return [
     'r2'                            => 'Knowledge of JavaScript, jQuery and AngularJS.',
     'r3'                            => 'Must have the ability to perform unit testing on source code wherever required.',
     'r4'                            => 'Must have the ability to maintain source code, and analyze and fix bugs wherever necessary.',
-    'r5'                            => 'Must have the abilityto maintain existing portals / applications, which are developed in open source technologies.',
+    'r5'                            => 'Must have the ability to maintain existing portals / applications, which are developed in open source technologies.',
     'r6'                            => 'Must have the ability to effectively prioritize workload to meet deadlines and work objective',
 
     'bd'                            => 'Business Development Executive',
