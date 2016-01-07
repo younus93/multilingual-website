@@ -15,7 +15,7 @@
     {{--<link rel="stylesheet" href="{{ url( "css/style.css")}}"/><!-- template styles -->--}}
     {{--<link rel="stylesheet" href="{{ url( "css/color-default.css") }}"/><!-- template main color -->--}}
     {{--<link rel="stylesheet" href="{{ url( "css/retina.css") }}"/><!-- retina ready styles -->--}}
-    {{--<link rel="stylesheet" href="{{ url( "css/responsive.css")}}"/><!-- responsive styles -->--}}
+    <link rel="stylesheet" href="{{ url( "css/responsive.css")}}"/><!-- responsive styles -->
     <link rel="stylesheet" href="{{ url("css/custom.css")}}" >
 
     <!-- Google Web fonts -->
