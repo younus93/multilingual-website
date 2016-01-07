@@ -1,3 +1,4 @@
+<h2>Contact Us Mail</h2>
 <table>
     <tr>
         <td>Name</td>
@@ -17,6 +18,6 @@
     </tr>
     <tr>
         <td>Sent at</td>
-        <td>{{ $Sent_at }}</td>
+        <td>{{ \Carbon\Carbon::now() }}</td>
     </tr>
 </table>

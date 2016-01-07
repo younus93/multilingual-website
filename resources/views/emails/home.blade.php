@@ -1,3 +1,4 @@
+<h2>Homepage Mail</h2>
 <table>
     <tr>
         <td>Name</td>
