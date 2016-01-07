@@ -11,33 +11,10 @@
 |
 */
 
-Route::get('/', function(){
-    return view('home');
-});
-
-Route::get('/about-us', function(){
-    return view('about');
-});
-
-Route::get('/transporters', function(){
-//    $errors = null;
-    return view('transporters');
-});
-
 Route::post('/forms/{fields}','WebsiteController@Form');
 
 
-Route::get('/truck-owners',function(){
-   return view('truckowners');
-});
 
-Route::get('/contact',function(){
-    return view('contact');
-});
-
-Route::get('/blog',function(){
-   return view('404');
-});
 
 Route::get('/mail','WebsiteController@mail');
 /*
@@ -53,4 +30,35 @@ Route::get('/mail','WebsiteController@mail');
 
 Route::group(['middleware' => ['web']], function () {
     //
+    Route::get('/lang/{locale}','WebsiteController@Lang');
+
+    Route::get('/', function(){
+        return view('home');
+    });
+
+    Route::get('/about-us', function(){
+        return view('about');
+    });
+
+    Route::get('/transporters', function(){
+//    $errors = null;
+        return view('transporters');
+    });
+
+    Route::get('/careers',function(){
+        return view('careers');
+    });
+
+    Route::get('/truck-owners',function(){
+        return view('truckowners');
+    });
+
+    Route::get('/contact',function(){
+        return view('contact');
+    });
+
+    Route::get('/blog',function(){
+        return view('404');
+    });
+
 });

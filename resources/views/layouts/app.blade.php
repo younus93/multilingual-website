@@ -9,14 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{ url('css/bootstrap.css') }}"/><!-- bootstrap grid -->
+    <link rel="stylesheet" href="{{ url('css/all.css') }}"/><!-- bootstrap grid -->
     <link rel="stylesheet" href="{{ url('masterslider/style/masterslider.css') }}" /><!-- Master slider css -->
-    <link rel="stylesheet" href="{{ url("masterslider/skins/default/style.css")}}" /><!-- Master slider default skin -->
-    <link rel="stylesheet" href="{{ url("css/animate.css")}}"/><!-- animations -->
-    <link rel="stylesheet" href="{{ url( "css/style.css")}}"/><!-- template styles -->
-    <link rel="stylesheet" href="{{ url( "css/color-default.css") }}"/><!-- template main color -->
-    <link rel="stylesheet" href="{{ url( "css/retina.css") }}"/><!-- retina ready styles -->
-    <link rel="stylesheet" href="{{ url( "css/responsive.css")}}"/><!-- responsive styles -->
+    {{--<link rel="stylesheet" href="{{ url("css/animate.css")}}"/><!-- animations -->--}}
+    {{--<link rel="stylesheet" href="{{ url( "css/style.css")}}"/><!-- template styles -->--}}
+    {{--<link rel="stylesheet" href="{{ url( "css/color-default.css") }}"/><!-- template main color -->--}}
+    {{--<link rel="stylesheet" href="{{ url( "css/retina.css") }}"/><!-- retina ready styles -->--}}
+    {{--<link rel="stylesheet" href="{{ url( "css/responsive.css")}}"/><!-- responsive styles -->--}}
     <link rel="stylesheet" href="{{ url("css/custom.css")}}" >
 
     <!-- Google Web fonts -->
@@ -25,7 +24,7 @@
     <!-- Font icons -->
     <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
 </head>
-<body>
+<body class="{{ app()->getLocale() }}">
 
 @include('layouts.navbar')
 

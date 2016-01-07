@@ -180,7 +180,7 @@
                                 <div class="team-details">
                                     <h5>Jahir Hussain</h5>
                                     <p class="position">
-                                        CEO
+                                        Co-Founder - COO
                                     </p>
                                 </div><!-- .team-details end -->
                             </div><!-- .member end -->
@@ -192,7 +192,7 @@
                                 <div class="team-details">
                                     <h5>younus farveaz</h5>
                                     <p class="position">
-                                        Chief Technical Officer
+                                        Founder - CEO
                                     </p>
                                 </div><!-- .team-details end -->
                             </div><!-- .member end -->
@@ -204,7 +204,7 @@
                                 <div class="team-details">
                                     <h5>Jeenath Nisha</h5>
                                     <p class="position">
-                                        Chief Finance Officer
+                                        CFO
                                     </p>
                                 </div><!-- .team-details end -->
                             </div><!-- .member end -->

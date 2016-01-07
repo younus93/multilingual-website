@@ -69,4 +69,95 @@ return [
 
     'first_class'           =>  'Providing first class Transportation services across India.',
     'first_class_msg'   =>  'TruckJee can help you improve your transportation business by bring down your cost of truck hiring and providing essential software tools to track and monitor your transportation needs. Forget the hassle and failures in Truck Transportation and migrate to TruckJee in under 5 minutes.',
+
+    /*
+    * Transporter page done by Vishal
+    */
+    'the_complete_solution'         => 'THE COMPLETE SOLUTION',
+    'the_complete_solution_heading' => 'We offer you a large pool of verified truck owners across the country to match your transportation needs.',
+    'the_complete_solution_msg'     => 'TruckJee enables any Transporter to find trucks in any region across the country. These truck owners are verified and are digitally available online to track. When using TruckJee to hire trucks, your scope of truck hiring increases drastically which inturn reduces your truck hiring costs by 8-20%. Identifying empty trucks which are waiting for return loads, or finding truck owners who can deliver trucks at your expected cost is made easy using TruckJees transparent truck hiring marketplace.',
+    'extra_mile'                    => 'Giving you the extra mile',
+    'q1'                            => 'Completely free to use.',
+    'q2'                            => 'Free Online Transaction ERP',
+    'q3'                            => 'Accessible through Web/smartphones',
+    'q4'                            => 'Enables quality measurement and monitoring',
+    'step_by_step'                  => 'TAKING IT STEP BY STEP',
+    'requirement'                   => 'Requirement',
+    'requirement_msg'               => 'Input your source, destination, type of truck required, date of requirement, etc. on to TruckJees Requirement central.',
+    'auction'                       => 'Auction',
+    'auction_msg'                   => 'We articulate your requirements as an auction among all truck operators having empty trucks at your source.',
+    'selection'                     => 'Selection',
+    'selection_msg'                 => 'TruckJee gives you a list of trucks available with their quotes and truck documents from which you can choose any truck.',
+    'transaction'                   => 'Transaction',
+    'transaction_msg'               => 'With our intelligent software solution you can know the status of your truck till the truck reaches its destination.',
+    'your_benefits'                 => 'YOUR BENEFITS',
+    'your_benefits_msg'             => 'TruckJee is a facilitator of an online transaction. TruckJee does not take part in any transaction. The rates given by the owners and the choice of truck selected by the transporter are the decisions of the individual parties. TruckJees aim is to create a transparent platform between both the parties.    Access to a large pool of verified trucks across the country waiting for business.',
+    'b1'                            => 'Higher quality service by optimizing transport routes, means of transportation and reducing costs',
+    'b2'                            => 'Trucks hired through TruckJee have GPS Tracker installed which allows you to track your cargo online.',
+    'b3'                            => 'Strong optimized auction system that will make a competitive advantage to your business',
+    'b4'                            => 'Synchronized bidding process which ensures best rates from multiple business owners',
+    'b5'                            =>  'Owners who bid have agreed to your transaction terms allowing you to eliminate undocumented expenses.',
+    'b6'                            => 'Hassles of collecting and distributing balance payments are reduced and are systematically processed.',
+    'b7'                            => 'Reduce the amount of stress and phone calls by shifting to our online transportation ERP which is a one stop for all your transportation needs.',
+    'b8'                            => 'And much more!',
+
+    /*
+     * Truck Owner page
+     */
+    'to_heading'                    => 'IMMENSE NEED FOR TRANSPORTATION PROVIDERS',
+    'to_msg'                        => "Indian Government's Make in India policy has motivated and facilitated Indian manufacturing companies to manufacture and distribute products for local consumption in addition to products manufactured for export. This has triggered a change in the supply chain management process of various companies who are now in heavy need for transportation services.
+                                        Below are a few facts",
+    'to1'                           => 'About 65% of cargo shipped within the country is shipped on road.',
+    'to2'                           => 'The number of trucks annually increase by 9% every year.',
+    'to3'                           => 'Seasonal loads have reduced. All products are available all year long.',
+    'to4'                           => 'Indian National Highway is set to increase by 7000 kms by the end of 2016.',
+    'to5'                           => 'Clients require value addition to their existing transport services.',
+    'to6'                           => 'Opportunity to serve any region across the country.',
+    'to_msg_1'                      => 'These are the indications that the market is maturing and
+                                        now is the right time to change the way road transportation works.As traditional truck owners, you can stop worrying about finding loads
+                                        for your trucks and let us ensure that you are provided with exhaustive
+                                        opportunities to find loads for your trucks in whichever region your truck
+                                        is currently plying empty.',
+    'truckjee_finds_loads'          =>  'TruckJee finds loads',
+    'run_truck'                     =>  'Run your trucks full all year long',
+    'make_it_simple'                =>  'Making it simple',
+    'make_it_simple_msg'            =>  'We offer matching loads for your trucks at their current location through our highly optimized business distribution network',
+    'make_it_simple_msg_1'          =>  'TruckJee finds you the best loads available from multiple transporters around you at the shortest time possible.',
+    'notify'                        =>  'Notify Empty',
+    'notify_msg'                    =>  "Log into TruckJee's online application/smartphone app and mark the status of your vehicle as empty.",
+    'get_loads'                     =>  'Get Loads',
+    'get_loads_msg'                 =>  "We notify you of multiple load information available near your vehicle's current location which matches the type of cargo your vehicle can carry",
+    'select'                        =>  'Select and Quote',
+    'select_msg'                    =>  'Select which load you wish to transport and quote your rate to the transporter.',
+    'transaction_msg_to'            =>  'On approval of the business opportunity, place the truck at the loading point and start your business transaction.',
+    'balance_payments'              =>  'Balance Payments',
+    'balance_payments_msg'      =>  'On completion of the transaction, TruckJee facilitates to help you get your balance payments from the transporter.',
+
+    /*
+     * Careers page
+     */
+    'careers_heading'               => 'careers',
+    'sde'                           => 'Software Developer Engineer',
+    'skills'                        => 'Backend : PHP, NodeJs',
+    'job_summary'                   => 'Job summary',
+    'job_summary_msg'               => 'Our challenges are big - impacting millions of transporters, truck owners and countless other people who interact with them
+                                        and our path is not always easy. Doing the right thing rarely is. So we’re selective about who joins us on this journey.
+                                        There’s a certain kind of person who takes on the challenges of software development,
+                                        someone excited by the idea of owning; people who like to build new platforms, features and services from scratch,
+                                        developers who can manage the ambiguity and pace of a company whose ship cycles are measured in weeks, not years.',
+    'responsibility'                => 'Your Responsibilities',
+    'r1'                            => 'Must have experience of web technologies like PHP',
+    'r2'                            => 'Knowledge of JavaScript, jQuery and AngularJS.',
+    'r3'                            => 'Must have the ability to perform unit testing on source code wherever required.',
+    'r4'                            => 'Must have the ability to maintain source code, and analyze and fix bugs wherever necessary.',
+    'r5'                            => 'Must have the abilityto maintain existing portals / applications, which are developed in open source technologies.',
+    'r6'                            => 'Must have the ability to effectively prioritize workload to meet deadlines and work objective',
+
+    'bd'                            => 'Business Development Executive',
+    'bd1'                           => 'Need to Support in growing the company. The focus would be on Increasing Brand Awareness, Bringing in New Clients.',
+    'bd2'                           => 'Need to be involved in the generation and development of New Business opportunities.',
+    'bd3'                           => 'Need to be Planning & Conceptualizing of innovative ideas/ways in order to increase the business by keeping tab on the competition.',
+    'bd4'                           => 'Need to conduct local mapping of target audience and developing the plan of action accordingly, Identification and penetration of new market segments for attainment of targets with a view to optimize revenue and taking care of PR and branding activities.',
+    'bd5'                           => 'Need to work on generating leads, mappings, sectors, and targeting potential clients.',
+    'bd6'                           => 'Need to generate new business by preparing marketing strategies to promote the services to new Markets.',
 ];

@@ -29,64 +29,53 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="custom-heading">
-                        <h2>Immense need for Transportation providers</h2>
+                        <h2>{{ trans('messages.to_heading') }}</h2>
                     </div><!-- .custom-heading end -->
 
                     <p>
-                        Indian Government's Make in India policy has motivated and facilitated
-                        Indian manufacturing companies to manufacture and distribute products
-                        for local consumption in addition to products manufactured for export.
-                         This has triggered a change in the supply chain
-                        management process of various companies who are now in heavy need for
-                        transportation services.
-                        <br/>
-                        Below are a few facts
+                       {{ trans('messages.to_msg') }}
                     </p>
 
                     <ul class="fa-ul">
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            About 65% of cargo shipped within the country is shipped on road.
+                            {{ trans('messages.to1') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            The number of trucks annually increase by 9% every year.
+                            {{ trans('messages.to2') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Seasonal loads have reduced. All products are available all year long.
+                            {{ trans('messages.to3') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Indian National Highway is set to increase by 7000 kms by the end of 2016.
+                            {{ trans('messages.to4') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Clients require value addition to their existing transport services.
+                            {{ trans('messages.to5') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Opportunity to serve any region across the country.
+                            {{ trans('messages.to6') }}
                         </li>
                     </ul><!-- .fa-ul end -->
 
                     <p>
-                        These are the indications that the market is maturing and
-                        now is the right time to change the way road transportation works.As traditional truck owners, you can stop worrying about finding loads
-                        for your trucks and let us ensure that you are provided with exhaustive
-                        opportunities to find loads for your trucks in whichever region your truck
-                        is currently plying empty.
+                        {{ trans('messages.to_msg_1') }}
                     </p>
 
                 </div><!-- .col-md-6 end -->
 
                 <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                    <img src="img/pics/warehouse.jpg" alt=""/>
+                    <img src="img/pics/warehouse.png" alt=""/>
                 </div><!-- .col-md-6 end -->
             </div><!-- .row end -->
         </div><!-- .container end -->
@@ -96,28 +85,28 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="custom-heading02" style="margin-bottom:30px;">
-                    <h2>TruckJee finds loads</h2>
+                    <h2>{{ trans('messages.truckjee_finds_loads') }}</h2>
                     <p>
-                        Run your trucks full all year long
+                        {{ trans('messages.run_truck') }}
                     </p>
                 </div><!-- .custom-heading02 end -->
             </div><!-- .col-md-12 end -->
         </div><!-- .row end -->
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <img src="img/pics/warehouse.jpg" alt="">
+                <img src="img/pics/truckowner.png" alt="">
+                <img src="img/pics/truckowner1.png" alt="">
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="custom-heading">
-                    <h2>Making it simple</h2>
+                    <h2>{{ trans('messages.make_it_simple') }}</h2>
                 </div><!-- .custom-heading end -->
                 <p class="text-big">
-                    We offer matching loads for your trucks at their current location through our
-                    highly optimized business distribution network.
+                    {{ trans('messages.make_it_simple_msg') }}
                 </p>
                 <p>
-                    TruckJee finds you the best loads available from multiple transporters
-                    around you at the shortest time possible.
+                    {{ trans('messages.make_it_simple_msg_1') }}
+
                 </p>
                 <ul class="service-list-big-icons-details">
                     <li>
@@ -128,11 +117,10 @@
 
 
                         <div class="service-details">
-                            <h4>Notify empty</h4>
+                            <h4>{{ trans('messages.notify') }}</h4>
 
                             <p>
-                                Log into TruckJee's online application/smartphone app and mark
-                                the status of your vehicle as empty.
+                                {{ trans('messages.notify_msg') }}
                             </p>
                         </div><!-- .service-details end -->
                     </li>
@@ -143,12 +131,10 @@
                         </div><!-- .icon-container end -->
 
                         <div class="service-details">
-                            <h4>Get Loads</h4>
+                            <h4>{{ trans('messages.get_loads') }}</h4>
 
                             <p>
-                                We notify you of multiple load information
-                                available near your vehicle's current location which
-                                matches the type of cargo your vehicle can carry.
+                                {{ trans('messages.get_loads_msg') }}
                             </p>
                         </div><!-- .service-details end -->
                     </li>
@@ -159,11 +145,10 @@
                         </div><!-- .icon-container end -->
 
                         <div class="service-details">
-                            <h4>Selection and Quote</h4>
+                            <h4>{{ trans('messages.select') }}</h4>
 
                             <p>
-                                Select which load you wish to transport and quote
-                                your rate to the transporter.
+                                {{ trans('messages.select_msg') }}
                             </p>
                         </div><!-- .service-details end -->
                     </li>
@@ -174,11 +159,10 @@
                         </div><!-- .icon-container end -->
 
                         <div class="service-details">
-                            <h4>Transaction</h4>
+                            <h4>{{ trans('messages.transaction')}}</h4>
 
                             <p>
-                                On approval of the business opportunity,
-                                place the truck at the loading point and start your business transaction.
+                                {{ trans('messages.transaction_msg_to') }}
                             </p>
                         </div><!-- .service-details end -->
                     </li>
@@ -188,11 +172,9 @@
                         </div><!-- .icon-container end -->
 
                         <div class="service-details">
-                            <h4>Balance Payments</h4>
-
+                            <h4>{{ trans('messages.balance_payments') }}</h4>
                             <p>
-                                On completion of the transaction, TruckJee facilitates to help you
-                                get your balance payments from the transporter.
+                                {{ trans('messages.balance_payments_msg') }}
                             </p>
                         </div><!-- .service-details end -->
                     </li>
@@ -218,8 +200,13 @@
     <div class="container" id="tf">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-                <p>Fields marked with * are required</p>
+                <div id="loader">
+                    <img src="img/loader.gif" alt="loading" style="height:150px;width: 150px;">
+                    <p>Please wait</p>
+                </div>
                 <form id="truckOwnersForm">
+                    <p>Fields marked with * are required</p>
+
                     <!-- Name form field -->
                     <div class="form-group">
                         {!! Form::label('Name','* Name:') !!}
@@ -254,9 +241,12 @@
                     <script>
                         //Transporter form
                         $('#truckOwnersFormAlert').hide();
+                        $('#loader').hide();
                         $('#truckOwnersForm').on('submit',function(e){
                             e.preventDefault();
                             $('#truckOwnersFormAlert').html("");
+                            $('#truckOwnersForm').hide();
+                            $('#loader').show();
                             $.ajax({
 
                                 type    :   'POST',
@@ -264,6 +254,7 @@
                                 data    :   $('#truckOwnersForm').serialize(),
                                 success :   function(msg){
                                     $('#truckOwnersForm').slideUp(1000);
+                                    $('#loader').hide();
                                     $('#truckOwnersFormAlert').append("<h3>"+msg.success+"</h3>");
                                     $('#truckOwnersFormAlert').append("<h4><a href='{{ url('truck-owners') }}'>Click here to submit another enquiry.</a></h4>");
                                     $('#truckOwnersFormAlert').show();
@@ -279,6 +270,8 @@
                                             });
                                         }
                                     }
+                                    $('#loader').hide();
+                                    $('#truckOwnersForm').show();
                                     $('#truckOwnersFormAlert').show();
                                 }
                             });
@@ -287,6 +280,7 @@
                 @stop
             </div>
             <div class="col-md-6 col-sm-6">
+                <img src="img/pics/truckownercontact.png" alt="truck owner contact">
             </div>
 
         </div>

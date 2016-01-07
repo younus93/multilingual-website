@@ -17,7 +17,7 @@
     </tr>
     <tr>
         <td>Address</td>
-        <td>{{ $Message }}</td>
+        <td>{{ $Address }}</td>
     </tr>
     <tr>
         <td>Sent at</td>

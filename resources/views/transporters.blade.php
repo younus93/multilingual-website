@@ -30,48 +30,41 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="custom-heading">
-                        <h2>the complete solution</h2>
+                        <h2>{{ trans('messages.the_complete_solution') }}</h2>
                     </div>
-
-                    <img class="float-right animated triggerAnimation" data-animate="zoomIn" src="img/pics/img36.jpg" alt=""/>
-
                     <p class="text-big">
-                        We offer you a large pool of verified truck owners across the country to match your
-                        transportation needs.
+                       {{ trans('messages.the_complete_solution_heading') }}
                     </p>
 
                     <p>
-                        TruckJee enables any Transporter to find trucks in any region across the country.
-                        These truck owners are verified and are digitally available online to track. When using
-                        TruckJee to hire trucks, your scope of truck hiring increases drastically which inturn
-                        reduces your truck hiring costs by 8-20%. Identifying empty trucks which are waiting for
-                        return loads, or finding truck owners who can deliver trucks at your expected cost is made
-                        easy using TruckJee's transparent truck hiring marketplace.
+                        {{ trans('messages.the_complete_solution_msg') }}
                     </p>
+                    <img class="float-right animated triggerAnimation" data-animate="zoomIn" src="img/pics/pool.png" alt=""/>
+
                 </div><!-- .col-md-8 end -->
 
                 <div class="col-md-4 custom-bkg bkg-light-blue">
-                    <h3>Giving you the extra mile</h3>
+                    <h3>{{ trans('messages.extra_mile') }}</h3>
 
                     <ul class="fa-ul">
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Completely free to use.
+                            {{ trans('messages.q1') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Free Online Transaction ERP
+                            {{ trans('messages.q2') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Accessible through Web/smartphones
+                            {{ trans('messages.q3') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Enables quality measurement and monitoring
+                            {{ trans('messages.q4') }}
                         </li>
                     </ul><!-- .fa-ul end -->
                 </div><!-- .col-md-4.custom-bkg end -->
@@ -80,7 +73,7 @@
             <div class="row">
                 <div class="col-md-6 clearfix">
                     <div class="custom-heading">
-                        <h2>taking it step by step</h2>
+                        <h2>{{ trans('messages.step_by_step') }}</h2>
                     </div><!-- .custom-heading end -->
 
                     <ul class="service-list-big-icons-details">
@@ -90,11 +83,10 @@
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h4>Requirement</h4>
+                                <h4>{{ trans('messages.requirement') }}</h4>
 
                                 <p>
-                                    Input your source, destination, type of truck required, date of requirement, etc. on to
-                                    TruckJee's Requirement central.
+                                    {{ trans('messages.requirement_msg') }}
                                 </p>
                             </div><!-- .service-details end -->
                         </li>
@@ -105,11 +97,10 @@
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h4>Auction</h4>
+                                <h4>{{trans('messages.auction')}}</h4>
 
                                 <p>
-                                    We articulate your requirements as an auction among all truck operators
-                                    having empty trucks at your source.
+                                    {{ trans('messages.auction_msg') }}
                                 </p>
                             </div><!-- .service-details end -->
                         </li>
@@ -120,11 +111,10 @@
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h4>Selection</h4>
+                                <h4>{{ trans('messages.selection') }}</h4>
 
                                 <p>
-                                   TruckJee gives you a list of trucks available with their quotes and truck documents from which
-                                    you can choose any truck.
+                                    {{ trans('messages.selection_msg') }}
                                 </p>
                             </div><!-- .service-details end -->
                         </li>
@@ -135,12 +125,10 @@
                             </div><!-- .icon-container end -->
 
                             <div class="service-details">
-                                <h4>Transaction</h4>
+                                <h4>{{ trans('messages.transaction') }}</h4>
 
                                 <p>
-                                    With our intelligent software solution you
-                                    can know the status of your truck
-                                    till the truck reaches its destination.
+                                    {{ trans('messages.transaction_msg') }}
                                 </p>
                             </div><!-- .service-details end -->
                         </li>
@@ -149,62 +137,50 @@
 
                 <div class="col-md-6 custom-bkg bkg-light-blue">
                     <div class="custom-heading">
-                        <h2>your benefits</h2>
+                        <h2>{{trans('messages.your_benefits') }}</h2>
                     </div><!-- .custom-heading end -->
 
                     <p>
-                        TruckJee is a facilitator of an online transaction.
-                        TruckJee does not take part in any transaction. The rates given
-                        by the owners and the choice of truck selected by the transporter
-                        are the decisions of the individual parties. TruckJee's aim is to
-                        create a transparent platform between both the parties.
+                        {{trans('messages.your_benefits_msg') }}
                     </p>
 
                     <ul class="fa-ul">
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Access to a large pool of verified trucks across the country
-                            waiting for business.
+                            {{ trans('messages.b1') }}
                         </li>
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Higher quality service by optimizing transport
-                            routes, means of transportation and reducing costs
+                            {{ trans('messages.b2') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Trucks hired through TruckJee have GPS Tracker installed
-                            which allows you to track your cargo online.
+                            {{ trans('messages.b3') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Strong optimized auction system
-                            that will make a competitive advantage to your business
+                            {{ trans('messages.b4') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Synchronized bidding process which ensures best rates from
-                            multiple business owners
+                            {{ trans('messages.b5') }}
                         </li>
 
                         <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Owners who bid have agreed to your transaction terms allowing you
-                            to eliminate undocumented expenses.
+                            {{ trans('messages.b6') }}
                         </li>
                        <li>
                            <i class="fa fa-li fa-long-arrow-right"></i>
-                            Hassles of collecting and distributing balance payments are reduced and
-                           are systematically processed.
+                            {{ trans('messages.b7') }}
                        </li>
-                        <li>
+                       <li>
                             <i class="fa fa-li fa-long-arrow-right"></i>
-                            Reduce the amount of stress and phone calls by shifting to our online
-                            transportation ERP which is a one stop for all your transportation needs.
-                        </li>
+                            {{ trans('messages.b8') }}
+                       </li>
 
                     </ul><!-- .fa-ul end -->
                 </div><!-- .col-md-6 end -->
@@ -216,9 +192,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="custom-heading02" style="margin-bottom:30px;">
-                    <h2>Get in touch</h2>
+                    <h2>{{ trans('messages.get_in_touch') }}</h2>
                     <p>
-                        Please fill your details and we would get back to you shortly.
+                        {{ trans('messages.get_in_touch_msg') }}
                     </p>
                 </div><!-- .custom-heading02 end -->
             </div><!-- .col-md-12 end -->
@@ -229,11 +205,15 @@
     <div class="container" id="tf">
         <div class="row">
             <div class="col-md-6 col-sm-6">
-
+                <img src="img/pics/transporter.png" alt="transporter">
             </div>
             <div class="col-md-6 col-sm-6">
-                <p>Fields marked with * are required</p>
+                <div id="loader">
+                    <img src="img/loader.gif" alt="loading" style="height:150px;width: 150px;">
+                    <p>Please wait</p>
+                </div>
                 <form id="transportersForm">
+                    <p>Fields marked with * are required</p>
                     <!-- Name form field -->
                     <div class="form-group">
                         {!! Form::label('Name','* Name:') !!}
@@ -281,8 +261,11 @@
     <script>
         //Transporter form
         $('#transportersFormAlert').hide();
+        $('#loader').hide();
         $('#transportersForm').on('submit',function(e){
             e.preventDefault();
+            $('#transportersForm').hide();
+            $('#loader').show();
             $('#transportersFormAlert').html("");
             $.ajax({
 
@@ -291,6 +274,7 @@
                 data    :   $('#transportersForm').serialize(),
                 success :   function(msg){
                     $('#transportersForm').slideUp(1000);
+                    $('#loader').hide();
                     $('#transportersFormAlert').append("<h3>"+msg.success+"</h3>");
                     $('#transportersFormAlert').append("<h4><a href='{{ url('transporters') }}'>Click here to submit another enquiry.</a></h4>");
                     $('#transportersFormAlert').show();
@@ -306,6 +290,8 @@
                             });
                         }
                     }
+                    $('#loader').hide();
+                    $('#transportersForm').show();
                     $('#transportersFormAlert').show();
                 }
             });

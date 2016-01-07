@@ -18,8 +18,12 @@
                         </ul><!-- .quick links end -->
                     </div><!-- .col-md-6 end -->
 
-                    <div class="col-md-6 col-xs-3">
-
+                    <div class="col-md-6 col-xs-9">
+                        <ul id="quick-links">
+                            <li>View in</li>
+                            <li><a href="{{ url('lang/ta') }}">தமிழ்</a></li>
+                            <li><a href="{{ url('lang/en') }}">English</a></li>
+                        </ul>
                     </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
@@ -65,6 +69,10 @@
 
                                         <li class="{{ set_active('blog') }}">
                                             <a href="{{ url('/blog') }}">Blog</a>
+                                        </li><!-- .dropdown end -->
+
+                                        <li class="{{ set_active('careers') }}">
+                                            <a href="{{ url('/careers') }}">Careers</a>
                                         </li><!-- .dropdown end -->
 
                                         <li class="{{ set_active('contact') }}">

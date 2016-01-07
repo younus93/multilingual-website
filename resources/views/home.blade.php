@@ -6,7 +6,7 @@
             <!-- first slide -->
             <div class="ms-slide">
                 <!-- slide background -->
-                <img src="masterslider/blank.gif" data-src="img/slider/slide01.jpg" alt="Strongest distribution network"/>
+                <img src="masterslider/blank.gif" data-src="img/slider/slider01.png" alt="Strongest distribution network"/>
 
                 <h2 class="ms-layer pi-caption01"
                     style="left: 100px; top: 340px;"
@@ -51,9 +51,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="custom-heading02" style="margin-bottom:30px;">
-                        <h2>What we Offer</h2>
+                        <h2>{{ trans('messages.what_we_offer') }}</h2>
                         <p>
-                            TRANSPARENT LOGISTIC SERVICES
+                            {{ trans('messages.what_we_offer_msg') }}
                         </p>
                     </div><!-- .custom-heading02 end -->
                 </div><!-- .col-md-12 end -->
@@ -180,9 +180,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-
+                    <img src="img/pics/homepage.png" alt="homepage image">
                 </div>
                 <div class="col-md-6 col-sm-6">
+                    <div id="loader">
+                        <img src="img/loader.gif" alt="loading" style="height:150px;width: 150px;">
+                        <p>Please wait</p>
+                    </div>
                     <form id="homeForm">
                         <p>{{ trans('messages.required_fields') }}</p>
 
@@ -215,12 +219,11 @@
 
                         <script>
                             $('#homeFormAlert').hide();
+                            $('#loader').hide();
                             $('#homeForm').on('submit',function(e){
                                 e.preventDefault();
-                                document.getElementById("Name").readOnly = true;
-                                document.getElementById("Phone").readOnly = true;
-                                document.getElementById("Email").readOnly = true;
-
+                                $('#homeForm').hide();
+                                $('#loader').show();
                                 $('#homeFormAlert').html("");
                                 $.ajax({
 
@@ -229,6 +232,7 @@
                                     data    :   $('#homeForm').serialize(),
                                     success :   function(msg){
                                         $('#homeForm').slideUp(1000);
+                                        $('#loader').fadeOut(1000);
                                         $('#homeFormAlert').append("<h3>"+msg.success+"</h3>");
                                         $('#homeFormAlert').append("<h4><a href='{{ url('/') }}'>Click here to submit another enquiry.</a></h4>");
                                         $('#homeFormAlert').show();
@@ -244,6 +248,8 @@
                                                 });
                                             }
                                         }
+                                        $('#loader').hide();
+                                        $('#homeForm').show();
                                         $('#homeFormAlert').show();
                                     }
                                 });

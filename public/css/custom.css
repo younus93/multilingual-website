@@ -31,3 +31,8 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+.ta p{
+	font-size: 1.2em;
+	/*line-height: 25px;*/
+}

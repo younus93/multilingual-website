@@ -34,11 +34,11 @@
 
                         <a href="mailto:">info@truckjee.com</a>
                         <br />
-                        <ul class="footer-social-icons">
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-google-plus"></a></li>
-                        </ul><!-- .footer-social-icons end -->
+                        {{--<ul class="footer-social-icons">--}}
+                            {{--<li><a href="#" class="fa fa-facebook"></a></li>--}}
+                            {{--<li><a href="#" class="fa fa-twitter"></a></li>--}}
+                            {{--<li><a href="#" class="fa fa-google-plus"></a></li>--}}
+                        {{--</ul><!-- .footer-social-icons end -->--}}
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
             </div><!-- .row end -->
@@ -66,7 +66,6 @@
 <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
 <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
 <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
-<script src="owl-carousel/owl.carousel.min.js"></script><!-- Carousels script -->
 <script src="masterslider/masterslider.min.js"></script><!-- Master slider main js -->
 <script src="js/jquery.matchHeight-min.js"></script><!-- for columns with background image -->
 <script src="js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->

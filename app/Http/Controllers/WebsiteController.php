@@ -7,10 +7,13 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use Symfony\Component\VarDumper\Caster\ResourceCaster;
 
@@ -69,11 +72,24 @@ class WebsiteController extends Controller
 
         Mail::queue($email_path, $data, function ($msg) {
             $msg->to(
-                Input::get('Email'), Input::get('Name')
-            )->subject('Thank you for contacting TruckJee');
+                'info@truckjee.com', Input::get('Name')
+            )->subject('New message from TruckJee Website');
         });
+
+
+        Mail::queue('emails.thankyou', $data, function ($msg) {
+            $msg->to(
+                Input::get('Email'), Input::get('Name')
+            )->subject('TruckJee Contact');
+        });
+
         return Response::json(array('success' => 'Thank you for your interest. We would get back to you shortly.'), 200);
 
     }
 
+    public function Lang($lang)
+    {
+        Session::put('locale',$lang);
+        return redirect('/');
+    }
 }
