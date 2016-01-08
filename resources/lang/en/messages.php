@@ -5,7 +5,7 @@ return [
     /*
      * Homepage what we offer blocks
      */
-    'what_we_offer'             =>  'What we offer',
+    'what_we_offer'             =>  'Our Services',
     'what_we_offer_msg'         =>  'Transparent Transportation Services',
 
     'verified_owners'           =>  'Verified Truck owners',

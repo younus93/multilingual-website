@@ -28,7 +28,7 @@
                                     <a nohref>View In</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/lang/ta') }}">Tamil</a>
+                                    <a href="{{ url('/lang/ta') }}">தமிழ்</a>
 
                                 </li>
                                 <li>
