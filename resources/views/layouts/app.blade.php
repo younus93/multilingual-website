@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
     <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
     <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
-    <link rel="stylesheet" href="css/custom.css?1">
+    <link rel="stylesheet" href="css/custom.css">
 
 
     <!-- Google Web fonts -->
