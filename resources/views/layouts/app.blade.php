@@ -9,14 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{ url('css/all.css') }}"/><!-- bootstrap grid -->
-    <link rel="stylesheet" href="{{ url('masterslider/style/masterslider.css') }}" /><!-- Master slider css -->
-    {{--<link rel="stylesheet" href="{{ url("css/animate.css")}}"/><!-- animations -->--}}
-    {{--<link rel="stylesheet" href="{{ url( "css/style.css")}}"/><!-- template styles -->--}}
-    {{--<link rel="stylesheet" href="{{ url( "css/color-default.css") }}"/><!-- template main color -->--}}
-    {{--<link rel="stylesheet" href="{{ url( "css/retina.css") }}"/><!-- retina ready styles -->--}}
-    <link rel="stylesheet" href="{{ url( "css/responsive.css")}}"/><!-- responsive styles -->
-    <link rel="stylesheet" href="{{ url("css/custom.css")}}" >
+{{--    <link rel="stylesheet" href="{{ url('css/all.css') }}"/><!-- bootstrap grid -->--}}
+    <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
+    <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
+    <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
+    <link rel="stylesheet" href="css/animate.css"/><!-- animations -->
+    <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
+    <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
+    <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
+    <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
+    <link rel="stylesheet" href="css/custom.css">
+
 
     <!-- Google Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>

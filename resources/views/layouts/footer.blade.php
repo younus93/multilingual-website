@@ -101,7 +101,7 @@
             // check slider options section in documentation for more options.
         });
         // adds Arrows navigation control to the slider.
-        // slider.control('arrows');
+         slider.control('arrows');
 
 
     });

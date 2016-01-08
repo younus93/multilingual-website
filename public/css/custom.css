@@ -40,7 +40,13 @@
 .ta .fa-ul{
 	font-size: 1.4em;
 }
+.header-style03 .logo-info-container{
+	padding: 5px 0;
+}
+.header-style03 .info-container{
+	padding-top: 10px;
+}
 
-.master-slider .pi-caption01{
-	color : #000000;
+.page-content{
+	margin-top : 30px;
 }

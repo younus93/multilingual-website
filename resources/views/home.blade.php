@@ -2,41 +2,61 @@
 @section('content')
 
 
-        <div id="masterslider" class="master-slider ms-skin-default mb-0 ms-wk">
-            <!-- first slide -->
-            <div class="ms-slide">
-                <!-- slide background -->
-                <img src="masterslider/blank.gif" data-src="img/slider/slider01.png" alt="Strongest distribution network"/>
+    <div id="masterslider" class="master-slider ms-skin-default mb-0 ms-wk">
+        <!-- slide -->
+        <div class="ms-slide">
+            <!-- slide background -->
+            <img src="masterslider/blank.gif" data-src="img/slider/slide01.jpg" alt="Strongest distribution network"/>
 
-                <h2 class="ms-layer pi-caption01"
-                    style="left: 100px; top: 340px;"
-                    data-type="text"
-                    data-effect="left(short)"
-                    data-duration="300"
-                    data-hide-effect="fade"
-                    data-delay="300"
-                        >
-                    Simplified
-                </h2>
+            <img class="ms-layer" src="masterslider/blank.gif" data-src="img/slider/slider-line.jpg" alt=""
+                 style="left: 0; top: 310px;"
+                 data-type="image"
+                 data-effect="left(short)"
+                 data-duration="300"
+                 data-hide-effect="fade"
+                 data-delay="0"
+                    />
 
-                <h2 class="ms-layer pi-caption01"
-                    style="left: 100px; top: 400px;"
-                    data-type="text"
-                    data-effect="left(short)"
-                    data-duration="300"
-                    data-hide-effect="fade"
-                    data-delay="600"
-                        >
-                    Transportation
-                </h2>
+            <h2 class="ms-layer pi-caption01"
+                style="left: 0; top: 340px;"
+                data-type="text"
+                data-effect="left(short)"
+                data-duration="300"
+                data-hide-effect="fade"
+                data-delay="300"
+                    >
+                Make
+            </h2>
+
+            <h2 class="ms-layer pi-caption01"
+                style="left: 0; top: 400px;"
+                data-type="text"
+                data-effect="left(short)"
+                data-duration="300"
+                data-hide-effect="fade"
+                data-delay="600"
+                    >
+                Transportation
+            </h2>
+
+            <h2 class="ms-layer pi-caption01"
+                style="left: 0; top: 460px;"
+                data-type="text"
+                data-effect="left(short)"
+                data-duration="300"
+                data-hide-effect="fade"
+                data-delay="900"
+                    >
+                Easy
+            </h2>
+        </div><!-- .ms-slide end -->
+
+    </div><!-- #masterslider end -->
 
 
-            </div><!-- .ms-slide end -->
-        </div>
 
 
-
-    <div class="page-title-style01" style="margin-top:25px;margin-bottom:25px;">
+        <div class="page-title-style01" style="margin-top:25px;margin-bottom:25px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -208,6 +228,7 @@
                     @section('scripts')
 
                         <script>
+
                             $('#homeFormAlert').hide();
                             $('#loader').hide();
                             $('#homeForm').on('submit',function(e){

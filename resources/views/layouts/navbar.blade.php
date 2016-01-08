@@ -1,33 +1,45 @@
-<div class="header-wrapper">
+<div class="header-wrapper dark style03">
     <!-- .header.header-style02 start -->
-    <header id="header"  class="header-style02">
-        <div id="top-bar-wrapper" class="dark clearfix">
+    <header id="header"  class="header-style03">
+        <div class="logo-info-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-xs-9">
-                        <ul id="quick-links" class="clearfix">
-                            <li>
-                                <i class="fa fa-phone"></i>
-                                <span>044 42127143</span>
-                            </li>
-
-                            <li>
-                                <i class="fa fa-envelope"></i>
-                                <a href="{{url('/contact#contact')}}">Contact us today</a>
-                            </li>
-                        </ul><!-- .quick links end -->
+                    <div class="col-md-6">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="Trucking Transportation and Logistics HTML Template"/>
+                            </a>
+                        </div><!-- .logo end -->
                     </div><!-- .col-md-6 end -->
 
-                    <div class="col-md-6 col-xs-9">
-                        <ul id="quick-links">
-                            <li>View in</li>
-                            <li><a href="{{ url('lang/ta') }}">தமிழ்</a></li>
-                            <li><a href="{{ url('lang/en') }}">English</a></li>
-                        </ul>
+                    <div class="col-md-6">
+                        <div class="info-container">
+                            <ul id="quick-links" class="clearfix">
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span>+044 42127143 </span>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="{{ url('contact') }}">Contact us today</a>
+                                </li>
+                                <li>
+                                    <a nohref>View In</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url('/lang/ta') }}">தமிழ்</a>
+
+                                </li>
+                                <li>
+                                    <a href="{{ url('/lang/en') }}">English</a>
+                                </li>
+                            </ul><!-- .quick links end -->
+                        </div><!-- .info-container end -->
                     </div><!-- .col-md-6 end -->
                 </div><!-- .row end -->
             </div><!-- .container end -->
-        </div><!-- .top-bar-wrapper end -->
+        </div><!-- .logo-info-container end -->
 
         <div class="header-inner">
             <!-- .container start -->
@@ -40,13 +52,7 @@
                             <nav class="navbar navbar-default nav-left" role="navigation">
 
                                 <!-- .navbar-header start -->
-                                <div class="navbar-header">
-                                    <div class="logo">
-                                        <a href="{{ url('/') }}">
-                                            <img src="img/logo.png" alt="TruckJee - Hire Trucks online"/>
-                                        </a>
-                                    </div><!-- .logo end -->
-                                </div><!-- .navbar-header start -->
+
 
                                 <!-- MAIN NAVIGATION -->
                                 <div class="collapse navbar-collapse">

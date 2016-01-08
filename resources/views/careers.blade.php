@@ -2,27 +2,7 @@
 
 @section('content')
 
-    <div class="page-title-style02 pt-bkg01">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrumb-container">
-                        <ul class="breadcrumb clearfix">
-                            <li>You are here:</li>
-
-                            <li>
-                                <a href="{{ url('/') }}">Home</a>
-                            </li>
-
-                            <li>
-                                <a href="#">Careers</a>
-                            </li>
-                        </ul><!-- .breadcrumb end -->
-                    </div><!-- .breadcrumb-container end -->
-                </div><!-- .col-md-12 end -->
-            </div><!-- .row end -->
-        </div><!-- .container end -->
-    </div><!-- .page-title-style01.page-title-negative-top end -->
+    <div class="clearfix"></div>
 
     <div class="page-content">
         <div class="container">

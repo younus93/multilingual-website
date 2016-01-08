@@ -90,6 +90,6 @@ class WebsiteController extends Controller
     public function Lang($lang)
     {
         Session::put('locale',$lang);
-        return redirect('/');
+        return redirect()->back();
     }
 }
