@@ -7,9 +7,7 @@
                     <div class="col-md-6">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="img/logo.png" alt="Trucking Transportation and Logistics HTML Template"/>
-                            </a>
-                        </div><!-- .logo end -->
+                                <img src="img/logo.png?1" alt="TruckJee - India's First transportation marketplace">
                     </div><!-- .col-md-6 end -->
 
                     <div class="col-md-6">
