@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
     <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
     <link rel="stylesheet" href="css/animate.css"/><!-- animations -->
-    <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
+    <link rel="stylesheet" href="css/style_2.css"/><!-- template styles -->
     <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
     <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
     <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
