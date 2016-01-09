@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheets -->
-{{--    <link rel="stylesheet" href="{{ url('css/all.css') }}"/><!-- bootstrap grid -->--}}
+{{--<link rel="stylesheet" href="{{ url('css/all.css') }}"/><!-- bootstrap grid --> --}}
     <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
     <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
     <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
