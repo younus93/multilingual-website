@@ -171,7 +171,7 @@
                     <div class="custom-heading">
                         <h2>{{ trans('messages.why_choose_truckjee') }}</h2>
                     </div><!-- .custom-heading end -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5NvlrOgraqo" frameborder="0" allowfullscreen></iframe>
+                        <iframe class ="col-md-12" height="300px" src="https://www.youtube.com/embed/5NvlrOgraqo" frameborder="0" allowfullscreen></iframe>
                 </div><!-- .col-md-8 end -->
 
                 <div class="col-md-5">
