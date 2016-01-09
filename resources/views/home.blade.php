@@ -12,8 +12,6 @@
                  style="left: 0; top: 310px;"
                  data-type="image"
                  data-effect="left(short)"
-                 data-duration="300"
-                 data-hide-effect="fade"
                  data-delay="0"
                     />
 
@@ -21,8 +19,6 @@
                 style="left: 0; top: 340px;"
                 data-type="text"
                 data-effect="left(short)"
-                data-duration="300"
-                data-hide-effect="fade"
                 data-delay="300"
                     >
                 Make
@@ -32,8 +28,6 @@
                 style="left: 0; top: 400px;"
                 data-type="text"
                 data-effect="left(short)"
-                data-duration="300"
-                data-hide-effect="fade"
                 data-delay="600"
                     >
                 Transportation
@@ -43,8 +37,6 @@
                 style="left: 0; top: 460px;"
                 data-type="text"
                 data-effect="left(short)"
-                data-duration="300"
-                data-hide-effect="fade"
                 data-delay="900"
                     >
                 Easy
@@ -172,6 +164,68 @@
         </div><!-- .container end -->
     </div><!-- .page-content end -->
 
+    <div class="page-content custom-bkg bkg-light-blue mb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="custom-heading">
+                        <h2>{{ trans('messages.why_choose_truckjee') }}</h2>
+                    </div><!-- .custom-heading end -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5NvlrOgraqo" frameborder="0" allowfullscreen></iframe>
+                </div><!-- .col-md-8 end -->
+
+                <div class="col-md-5">
+
+                    <ul class="fa-ul large-icons">
+                        <li>
+                            <div class="icon-container animated triggerAnimation zoomIn" data-animate="zoomIn" style="opacity: 1;">
+                                <i class="fa fa-check-circle"></i>
+                            </div>
+
+                            <div class="li-content">
+                                <h3>{{ trans('messages.strong_presence') }}</h3>
+
+                                <p>
+                                    {{ trans('messages.strong_presence_msg') }}
+                                </p>
+                            </div><!-- .li-content end -->
+                        </li>
+
+                        <li>
+                            <div class="icon-container animated triggerAnimation zoomIn" data-animate="zoomIn" style="opacity: 1;">
+                                <i class="fa fa-check-circle"></i>
+                            </div>
+
+                            <div class="li-content">
+                                <h3>{{ trans('messages.end') }}</h3>
+
+                                <p>
+                                    {{ trans('messages.end_msg') }}
+                                </p>
+                            </div><!-- .li-content end -->
+                        </li>
+                        <li>
+                            <div class="icon-container animated triggerAnimation zoomIn" data-animate="zoomIn" style="opacity: 1;">
+                                <i class="fa fa-check-circle"></i>
+                            </div>
+
+                            <div class="li-content">
+                                <h3>{{ trans('messages.easy_integration') }}</h3>
+
+                                <p>
+                                    {{ trans('messages.easy_integration_msg') }}
+                                </p>
+                            </div><!-- .li-content end -->
+                        </li>
+                    </ul><!-- .fa-ul .fa-ul-large end -->
+                </div><!-- .col-md-4 end -->
+            </div><!-- .row end -->
+        </div><!-- .container end -->
+    </div>
+
+
+
+
         <!-- Are you a Transporter or truck owner section -->
 
         <div class="container">
@@ -265,6 +319,45 @@
                                     }
                                 });
                             });
+                        </script>
+                        <script src="masterslider/masterslider.min.js"></script><!-- Master slider main js -->
+                        <script>
+                            /* <![CDATA[ */
+                            jQuery(document).ready(function ($) {
+                                'use strict';
+
+                                function equalHeight() {
+                                    $('.page-content.column-img-bkg *[class*="custom-col-padding"]').each(function () {
+                                        var maxHeight = $(this).outerHeight();
+                                        $('.page-content.column-img-bkg *[class*="img-bkg"]').height(maxHeight);
+                                    });
+                                };
+
+                                $(document).ready(equalHeight);
+                                $(window).resize(equalHeight);
+
+                                // MASTER SLIDER START
+                                var slider = new MasterSlider();
+                                slider.setup('masterslider', {
+                                    width: 1140, // slider standard width
+                                    height: 854, // slider standard height
+                                    space: 0,
+                                    speed: 50,
+                                    layout: "fullscreen",
+                                    centerControls: false,
+                                    loop: true,
+                                    autoplay: true,
+
+                                    // more slider options goes here...
+                                    // check slider options section in documentation for more options.
+                                });
+                                // adds Arrows navigation control to the slider.
+//         slider.control('arrows');
+
+
+                            });
+
+                            /* ]]> */
                         </script>
                         @stop
                 </div>

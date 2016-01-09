@@ -66,45 +66,8 @@
 <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
 <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
 <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->
-<script src="masterslider/masterslider.min.js"></script><!-- Master slider main js -->
 <script src="js/jquery.matchHeight-min.js"></script><!-- for columns with background image -->
 <script src="js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
 <script src="js/include.js"></script><!-- custom js functions -->
 
-<script>
-    /* <![CDATA[ */
-    jQuery(document).ready(function ($) {
-        'use strict';
 
-        function equalHeight() {
-            $('.page-content.column-img-bkg *[class*="custom-col-padding"]').each(function () {
-                var maxHeight = $(this).outerHeight();
-                $('.page-content.column-img-bkg *[class*="img-bkg"]').height(maxHeight);
-            });
-        };
-
-        $(document).ready(equalHeight);
-        $(window).resize(equalHeight);
-
-        // MASTER SLIDER START
-        var slider = new MasterSlider();
-        slider.setup('masterslider', {
-            width: 1140, // slider standard width
-            height: 854, // slider standard height
-            space: 0,
-            speed: 50,
-            layout: "fullwidth",
-            centerControls: false,
-            loop: true,
-            autoplay: true
-            // more slider options goes here...
-            // check slider options section in documentation for more options.
-        });
-        // adds Arrows navigation control to the slider.
-//         slider.control('arrows');
-
-
-    });
-
-    /* ]]> */
-</script>

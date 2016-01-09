@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="{{ url('/') }}">
                                 <img src="img/logo.png?1" alt="TruckJee Logo"/>
                             </a>
                         </div><!-- .logo end -->
@@ -49,14 +49,14 @@
                     <!-- .row start -->
                     <div class="row">
                         <div class="col-md-12">
-                            <nav class="navbar navbar-default nav-left" role="navigation">
+                            <nav class="navbar navbar-default" role="navigation">
 
                                 <!-- .navbar-header start -->
 
 
                                 <!-- MAIN NAVIGATION -->
                                 <div class="collapse navbar-collapse">
-                                    <ul class="nav navbar-nav">
+                                    <ul class="nav navbar-nav navbar-left">
                                         <li class="{{ set_active('/') }}">
                                             <a href="{{ url('/') }}">Home</a>
                                         </li>
@@ -84,14 +84,23 @@
                                         <li class="{{ set_active('contact') }}">
                                             <a href="{{ url('/contact') }}">Contact</a>
                                         </li><!-- .dropdown end -->
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li>
+                                            <a href="http://panel.truckjee.com/transporterlogin">Transporter Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://panel.truckjee.com/truckownerlogin" >Truck Owner Login</a>
+                                        </li>
+                                    </ul>
 
 
-                                    </ul><!-- .nav.navbar-nav end -->
+
+                                    <!-- .nav.navbar-nav end -->
 
                                     <!-- RESPONSIVE MENU -->
                                     <div id="dl-menu" class="dl-menuwrapper">
                                         <button class="dl-trigger">Open Menu</button>
-
                                         <ul class="dl-menu">
                                             <li>
                                                 <a href="{{ url('/') }}">Home</a>
@@ -108,11 +117,19 @@
                                             <li>
                                                 <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
-                                            <li><a href="{{ url('/contact') }}">Contact</a></li>
-
+                                            <li>
+                                                <a href="{{ url('/contact') }}">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://panel.truckjee.com/transporterlogin">Transporter Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://panel.truckjee.com/truckownerlogin" >Truck Owner Login</a>
+                                            </li>
                                         </ul><!-- .dl-menu end -->
                                     </div><!-- #dl-menu end -->
                                 </div><!-- MAIN NAVIGATION END -->
+
                             </nav><!-- .navbar.navbar-default end -->
                         </div><!-- .col-md-12 end -->
                     </div><!-- .row end -->

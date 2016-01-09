@@ -20,6 +20,20 @@ return [
     'more_roi_msg'              =>  'Whether you are a transporter or a fleet owner, TruckJee enables you to run your business all year long. Watch your business yield more by using TruckJee.',
     'online_portal'             =>  'Online Portal',
     'online_portal_msg'         =>  'All your transportation activities are available at one place. Exhaustive documentation and automatic monitoring ensures that you are never lost for information when you need it.',
+    'why_choose_truckjee'       =>  'WHY CHOOSE TruckJee',
+    'strong_presence'           =>  'Nationwide Availability',
+    'strong_presence_msg'       =>  'From Jammu to kanyakumari,
+                                    We offer fast, reliable and accurate
+                                    nationwide truck connectivity directly to your
+                                    doors, factory and warehouses.',
+    'end'                       =>  'End to End Solution',
+    'end_msg'                   =>  'At TruckJee, we have provisions which enables you to start your transaction,
+                                    handle/monitor it till your destination and successfully complete your transportation.',
+    'easy_integration'          =>  'Easy Integration',
+    'easy_integration_msg'      =>  'Integrating TruckJee into your existing physical transportation activities is very easy and requires only a working internet connection.',
+
+
+
 
     /*
      * Reusable Get in touch form field data
