@@ -174,4 +174,35 @@ return [
     'bd4'                           => 'Need to conduct local mapping of target audience and developing the plan of action accordingly, Identification and penetration of new market segments for attainment of targets with a view to optimize revenue and taking care of PR and branding activities.',
     'bd5'                           => 'Need to work on generating leads, mappings, sectors, and targeting potential clients.',
     'bd6'                           => 'Need to generate new business by preparing marketing strategies to promote the services to new Markets.',
+
+
+
+    /*
+     * Launch Page
+     */
+    'launch'                        => 'TruckJee Inauguration',
+    'launch_date'                   => 'November 14th, 2015.',
+    'para1'                         => "TruckJee, India's first online transportation marketplace aims to facilitate transporters to find and match their transportation needs online at the minimal expense of personnel and resources. As a truck hiring marketplace, we aim to match truck owners who are willing to transport cargo to transporters who are in need of dedicated personnel to handle their cargo.
+                                        As a part of TruckJee's truck aggregation procedure, we install real time positioning systems and pre-verify documents and owners across all our trucks allowing one to track their consignment and be confident about using TruckJee.
+                                        Our smartphone and applications enable transporters and truck owners to articulate information at ease.
+                                        TruckJee has made truck hiring as simple as booking a movie ticket online.",
+    'para2'                         => "TruckJee was inaugurated at the United Economic Forum's Trade Summit 2015, held at ITC Grand Chola. The team assembled at the Trade Summit, organized by
+                                        UEF, a federation of Entrepruners and businessmen across the globe. On assembling at the venue, our launchpad exhibited an unique and vibrant flavour
+                                        in the colors of TruckJee's theme. The place was buzzing with people excited and looking to get a sneak peek into the launch by the late Chief Minister.
+                                        A delegation of members accompanied the Late Chief Minister which included the Founder of Coal & Oil Group, Mr. Ahmed A.R. Buhari, who is also the President
+                                        of the UEF, Mr. Shoukath Sherif, Chairman and CEO of Sherif Group.",
+    'para3'                         => "The Launchpad was all set for the delegation to enter and launch the product. On arriving, the Late Chief Minister congratulated the team for thinking and implementing a novel idea which he believed could increase and uplift the
+                                        truck community across the country by providing them access to business opportunities at any given location in the country. He believes that increasing business transactions in any community is an indication of faster growth and encouraged the team to work hard in achieving unparalleled success
+                                        and work towards the betterment of the country as a whole. He then proceeded to launch TruckJee. It was a special moment for everyone present there.
+                                        TruckJee founders presented the Chief Minister with a TruckJee memento.",
+
+    'para4'                         =>  "Post inauguration, we experienced a warm and vivid reception from the members of various business delegations.
+                                        The idea of TruckJee thrilled them. They were curious to know how we would help them bring down the cost of truck
+                                        hiring and at the same time ensure that the truck community in India would financially benefit. A representative from
+                                        a popular truck magazine quoted on how online truck hiring is the future of truck operations in India and how many
+                                        companies and transporters are moving towards digital methods of truck aggregation and hiring. The recent developments in
+                                        infrastructure for connectivity in rural areas aided TruckJee in creating and testing a strong system to replace the existing
+                                        truck hiring practices in the country.
+                                        On understanding how TruckJee works, many transporters offered to be part of TruckJee's beta phase which is currently in process.
+                                        After a successful launch, TruckJee is out to change the way Transportation happens in the country."
 ];

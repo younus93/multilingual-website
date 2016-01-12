@@ -57,8 +57,8 @@ Route::group(['middleware' => ['web']], function () {
         return view('contact');
     });
 
-    Route::get('/blog',function(){
-        return view('404');
+    Route::get('/launch',function(){
+        return view('launch');
     });
 
 });

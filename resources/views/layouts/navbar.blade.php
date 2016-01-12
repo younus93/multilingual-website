@@ -73,8 +73,8 @@
                                             <a href="{{url('/truck-owners') }}" >Truck Owners</a>
                                         </li><!-- .dropdown end -->
 
-                                        <li class="{{ set_active('blog') }}">
-                                            <a href="{{ url('/blog') }}">Blog</a>
+                                        <li class="{{ set_active('launch') }}">
+                                            <a href="{{ url('/launch') }}">Launch</a>
                                         </li><!-- .dropdown end -->
 
                                         <li class="{{ set_active('careers') }}">
@@ -115,7 +115,7 @@
                                                 <a href="{{ url('/truck-owners') }}">Truck Owners</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/blog') }}">Blog</a>
+                                                <a href="{{ url('/launch') }}">Launch</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/contact') }}">Contact</a>
