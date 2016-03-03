@@ -13,10 +13,10 @@
 
 Route::post('/forms/{fields}','WebsiteController@Form');
 
-
-
-
 Route::get('/mail','WebsiteController@mail');
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -28,7 +28,7 @@ Route::get('/mail','WebsiteController@mail');
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web']], function (){
     //
     Route::get('/lang/{locale}','WebsiteController@Lang');
 
@@ -41,7 +41,6 @@ Route::group(['middleware' => ['web']], function () {
     });
 
     Route::get('/transporters', function(){
-//    $errors = null;
         return view('transporters');
     });
 
@@ -60,5 +59,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/launch',function(){
         return view('launch');
     });
+
+    Route::get('track/{imei}/{vehicle}', "TrackingController@track");
 
 });

@@ -92,4 +92,18 @@ class WebsiteController extends Controller
         Session::put('locale',$lang);
         return redirect()->back();
     }
+
+    public function submitform(Request $request)
+    {
+
+        $rules = array(
+            'Name' => 'required',
+            'Company_Name' => 'required',
+            'Phone' => 'required|max:10',
+            'Email' => 'required|email',
+            'Address' => 'required|max:255'
+        );
+
+
+    }
 }
