@@ -106,4 +106,7 @@ class WebsiteController extends Controller
 
 
     }
+    public function terms(){
+        return View('layouts.terms');
+    }
 }

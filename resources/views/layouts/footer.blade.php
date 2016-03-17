@@ -1,3 +1,7 @@
+<style type="text/css">
+    .horizontal { display: inline; border-left: 1px solid; padding-left: 0.3em; width:1px; }
+    .first { border-left: none; padding-left: 262px; }
+</style>
 <div id="footer-wrapper" class="footer-dark">
     <footer id="footer">
         <div class="container">
@@ -31,7 +35,6 @@
                                     044 42127143
                                 </span>
                         <br />
-
                         <a href="mailto:">info@truckjee.com</a>
                         <br />
                         {{--<ul class="footer-social-icons">--}}
@@ -41,6 +44,22 @@
                         {{--</ul><!-- .footer-social-icons end -->--}}
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
+                {{--<ul class="col-md-3 col-sm-6 footer-widget-container">--}}
+                <ul>
+                   <li class="horizontal first">
+                {{--<li class="{{ set_active('transporters') }}">--}}
+                    <a href="{{ url('/transporters') }}" >Transporters</a>
+                </li>
+                    <li class="horizontal">
+                {{--<li class="{{ set_active('truck-owners') }}">--}}
+                    <a href="{{url('/truck-owners') }}" >Truck Owners</a>
+                </li><!-- .dropdown end -->
+                {{--<li class="{{ set_active('launch') }}">--}}
+                    <li class="horizontal">
+                    <a href="{{ url('/launch') }}">Launch</a>
+                </li><!-- .dropdown end -->
+                <li class="horizontal">  <a href="/termsandconditions">Terms & Conditions</a></li>
+                </ul>
             </div><!-- .row end -->
         </div><!-- .container end -->
     </footer><!-- #footer end -->
