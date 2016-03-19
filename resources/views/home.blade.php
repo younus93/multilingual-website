@@ -222,10 +222,6 @@
             </div><!-- .row end -->
         </div><!-- .container end -->
     </div>
-
-
-
-
         <!-- Are you a Transporter or truck owner section -->
 
         <div class="container">

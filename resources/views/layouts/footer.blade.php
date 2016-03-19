@@ -12,8 +12,8 @@
                             <h3>Impressum</h3>
                         </div>
                         <p>
-                            TruckJee is a registered trademark of Jeeth Trucks Pvt., Ltd. registered in Chennai, incorporated under the companies act 2013.
-                            The Company reserves the right, at its sole discretion, to pursue all of its legal remedies, including but not limited to prosecution of users in violation of the terms and conditions of use.
+                            TruckJee is a registered trademark of Jeeth Trucks Pvt., Ltd. registered at Chennai, incorporated under the companies act 2013.
+                            
                         </p>
                     </li>
                 </ul><!-- .col-md-3.footer-widget-container end -->
