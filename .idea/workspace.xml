@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a979f4-ced8-4182-9d63-6f5c4590b30e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
     </list>
     <ignored path="Truckjee.iws" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22760801">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.37934667">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -778,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22760801">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.37934667">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
