@@ -15,7 +15,7 @@ Route::post('/forms/{fields}','WebsiteController@Form');
 
 Route::get('/mail','WebsiteController@mail');
 
-Route::get('/termsandconditions','WebsiteController@terms');
+Route::get('/terms-and-conditions','WebsiteController@terms');
 
 
 

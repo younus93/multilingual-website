@@ -12,10 +12,20 @@
 
                 <ul class="col-md-3 col-sm-6 footer-widget-container">
 
-
                 </ul><!-- .col-md-3.footer-widget-container end -->
 
                 <ul class="col-md-3 col-sm-6 footer-widget-container">
+                    <li class="widget widget_pages">
+                        <div class="title">
+                            <h3>Useful links</h3>
+                        </div>
+                        <ul>
+                            <li><a href="{{ url('/transporters') }}">Transporters</a></li>
+                            <li><a href="{{ url('/truck-owners') }}">Truck Owners</a></li>
+                            <li><a href="{{ url('/careers') }}">Careers</a></li>
+                            <li><a href="{{ url('/terms-and-conditions') }}">Terms and Conditions</a></li>
+                        </ul>
+                    </li>
 
                 </ul><!-- .col-md-3.footer-widget-container end -->
 
@@ -45,21 +55,8 @@
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
                 {{--<ul class="col-md-3 col-sm-6 footer-widget-container">--}}
-                <ul>
-                   <li class="horizontal first">
-                {{--<li class="{{ set_active('transporters') }}">--}}
-                    <a href="{{ url('/transporters') }}" >Transporters</a>
-                </li>
-                    <li class="horizontal">
-                {{--<li class="{{ set_active('truck-owners') }}">--}}
-                    <a href="{{url('/truck-owners') }}" >Truck Owners</a>
-                </li><!-- .dropdown end -->
-                {{--<li class="{{ set_active('launch') }}">--}}
-                    <li class="horizontal">
-                    <a href="{{ url('/launch') }}">Launch</a>
-                </li><!-- .dropdown end -->
-                <li class="horizontal">  <a href="/termsandconditions">Terms & Conditions</a></li>
-                </ul>
+
+
             </div><!-- .row end -->
         </div><!-- .container end -->
     </footer><!-- #footer end -->
