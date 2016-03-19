@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a979f4-ced8-4182-9d63-6f5c4590b30e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
     </list>
     <ignored path="Truckjee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37934667">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.81032664">
+              <caret line="368" column="8" selection-start-line="368" selection-start-column="8" selection-end-line="368" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -71,7 +71,6 @@
         <option value="$PROJECT_DIR$/resources/views/transporters.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/404.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/careers.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/layouts/navbar.blade.php" />
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/terms.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -156,6 +156,48 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Truckjee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee-Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee-Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Truckjee-Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -657,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.7078853">
-          <caret line="253" column="23" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/careers.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="15.692307">
@@ -777,8 +812,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37934667">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.20864068">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <marker date="1458372470622" expanded="true" signature="22:179" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="225:3971" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="250:3446" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="282:3409" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="312:3377" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="392:1059" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="456:1037" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="500:578" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="606:1011" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="1177:1200" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="1318:1974" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="1371:1951" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="1415:1496" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="1525:1925" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="2092:3231" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="2144:3177" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="2188:2267" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="2302:2486" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="2543:2632" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="3505:3885" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="3537:3851" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="3567:3819" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="3606:3692" placeholder="..." />
+            <marker date="1458372470622" expanded="true" signature="3754:3778" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81032664">
+          <caret line="368" column="8" selection-start-line="368" selection-start-column="8" selection-end-line="368" selection-end-column="8" />
           <folding />
         </state>
       </provider>

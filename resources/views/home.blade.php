@@ -366,50 +366,7 @@
 
 
 
-        <div class="page-title-style01 to-tp">
-            <div class="container">
-
-                <div class="row mb-30">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="service-icon-left-boxed">
-                            <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                                <img src="img/svg/pi-truck-3.svg" alt="checklist icon"/>
-                            </div><!-- .icon-container end -->
-
-                            <div class="service-details">
-                                <h3>{{ trans('messages.are_truck') }}</h3>
-
-                                <p>
-                                    {{ trans('messages.are_truck_msg') }}
-                                </p>
-                                <p>
-                                    <a href="{{ url('/truck-owners') }}" class="btn">{{ trans('messages.know_more') }}</a>
-                                </p>
-                            </div><!-- .service-details end -->
-                        </div><!-- .service-icon-left-boxed end -->
-                    </div><!-- .col-md-6 end -->
-
-                    <div class="col-md-6 col-sm-6">
-                        <div class="service-icon-left-boxed">
-                            <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
-                                <img src="img/svg/pi-cargo-retail.svg" alt="warehouse icon"/>
-                            </div><!-- .icon-container end -->
-
-                            <div class="service-details">
-                                <h3>{{ trans('messages.are_transporter') }}</h3>
-
-                                <p>
-                                    {{ trans('messages.are_transporter_msg') }}
-                                </p>
-                                <p>
-                                    <a href="{{ url('/transporters') }}" class="btn">{{ trans('messages.know_more') }}</a>
-                                </p>
-                            </div><!-- .service-details end -->
-                        </div><!-- .service-icon-left-boxed end -->
-                    </div><!-- .col-md-6 end -->
-                </div><!-- .row.mb-30 end -->
-            </div>
-        </div>
+        
 
 
 @stop
