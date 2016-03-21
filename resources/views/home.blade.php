@@ -2,45 +2,52 @@
 @section('content')
 
 
-    <div id="masterslider" class="master-slider ms-skin-default mb-0 ms-wk">
+    <div id="masterslider" style="min-height:500px;" class="master-slider ms-skin-default mb-0 ms-wk">
         <!-- slide -->
         <div class="ms-slide">
             <!-- slide background -->
-            <img src="masterslider/blank.gif" data-src="img/slider/slide01.jpg" alt="Strongest distribution network"/>
+            <img src="masterslider/blank.gif" data-src="{{ url('img/slider/slider02.jpg') }}" alt="background image"/>
+            <img class="ms-layer" src="masterslider/blank.gif" data-src="{{ url('img/mobile.png') }}" alt=""
+                 style="left: 700px; top: 100px; max-height: 500px;max-width: 500px;"
+                 data-type="image"
+                 data-delay="1000"
+                 data-effect="right(short)"
+            />
 
             <img class="ms-layer" src="masterslider/blank.gif" data-src="img/slider/slider-line.jpg" alt=""
-                 style="left: 0; top: 310px;"
+                 style="left: 0; top: 170px;"
                  data-type="image"
                  data-effect="left(short)"
                  data-delay="0"
                     />
 
             <h2 class="ms-layer pi-caption01"
-                style="left: 0; top: 340px;"
+                style="left: 0; top: 195px;"
                 data-type="text"
                 data-effect="left(short)"
                 data-delay="300"
                     >
-                Make
+                Hire trucks,
             </h2>
 
             <h2 class="ms-layer pi-caption01"
-                style="left: 0; top: 400px;"
+                style="left: 0; top: 260px;"
                 data-type="text"
                 data-effect="left(short)"
                 data-delay="600"
-                    >
-                Transportation
+                >
+                Online.
             </h2>
+            <p class="ms-layer pi-text"
+               style="font-size:20px; line-height: 30px; left: 0px; top: 430px;"
+               data-type="text"
+               data-delay="1600"
+            >
+                TruckJee is an online platform used by various <br>organizations to hire trucks online!<br>
+                Give a missed call at <strong>9375551122</strong> to get started!
+            </p>
 
-            <h2 class="ms-layer pi-caption01"
-                style="left: 0; top: 460px;"
-                data-type="text"
-                data-effect="left(short)"
-                data-delay="900"
-                    >
-                Easy
-            </h2>
+
         </div><!-- .ms-slide end -->
 
     </div><!-- #masterslider end -->
@@ -48,7 +55,7 @@
 
 
 
-        <div class="page-title-style01" style="margin-top:25px;margin-bottom:25px;">
+        <div class="page-title-style01" style="margin-top:25px;margin-bottom:25px; padding-top: 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -322,28 +329,28 @@
                             jQuery(document).ready(function ($) {
                                 'use strict';
 
-                                function equalHeight() {
-                                    $('.page-content.column-img-bkg *[class*="custom-col-padding"]').each(function () {
-                                        var maxHeight = $(this).outerHeight();
-                                        $('.page-content.column-img-bkg *[class*="img-bkg"]').height(maxHeight);
-                                    });
-                                };
+//                                function equalHeight() {
+//                                    $('.page-content.column-img-bkg *[class*="custom-col-padding"]').each(function () {
+//                                        var maxHeight = $(this).outerHeight();
+//                                        $('.page-content.column-img-bkg *[class*="img-bkg"]').height(maxHeight);
+//                                    });
+//                                };
 
-                                $(document).ready(equalHeight);
-                                $(window).resize(equalHeight);
+//                                $(document).ready(equalHeight);
+//                                $(window).resize(equalHeight);
 
                                 // MASTER SLIDER START
                                 var slider = new MasterSlider();
                                 slider.setup('masterslider', {
                                     width: 1140, // slider standard width
-                                    height: 854, // slider standard height
+                                    height: 550, // slider standard height
                                     space: 0,
                                     speed: 50,
-                                    layout: "fullscreen",
+                                    layout: "fullwidth",
                                     centerControls: false,
-                                    loop: true,
-                                    autoplay: true,
-
+                                    autoplay: false,
+                                    grabCursor : false,
+                                    swipe : false,
                                     // more slider options goes here...
                                     // check slider options section in documentation for more options.
                                 });

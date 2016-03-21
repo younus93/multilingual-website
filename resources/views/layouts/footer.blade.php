@@ -13,8 +13,11 @@
                         </div>
                         <p>
                             TruckJee is a registered trademark of Jeeth Trucks Pvt., Ltd. registered at Chennai, incorporated under the companies act 2013.
-                            
                         </p>
+                        <ul>
+                            <li><a href="http://www.truckjee.com/lang/ta">தமிழ் தகவல் பார்க்க</a></li>
+                            <li><a href="http://www.truckjee.com/lang/en">To view in english</a></li>
+                        </ul>
                     </li>
                 </ul><!-- .col-md-3.footer-widget-container end -->
 
@@ -30,6 +33,7 @@
                         <ul>
                             <li><a href="{{ url('/transporters') }}">Transporters</a></li>
                             <li><a href="{{ url('/truck-owners') }}">Truck Owners</a></li>
+                            <li><a href="{{ url('/launch') }}">Launch</a></li>
                             <li><a href="{{ url('/careers') }}">Careers</a></li>
                             <li><a href="{{ url('/terms-and-conditions') }}">Terms and Conditions</a></li>
                         </ul>
