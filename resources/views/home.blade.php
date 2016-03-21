@@ -6,23 +6,23 @@
         <!-- slide -->
         <div class="ms-slide">
             <!-- slide background -->
-            <img src="masterslider/blank.gif" data-src="{{ url('img/slider/slider02.jpg') }}" alt="background image"/>
+            <img src="masterslider/blank.gif" data-src="{{ url('img/slider/slide01.jpg') }}" alt="background image"/>
             <img class="ms-layer" src="masterslider/blank.gif" data-src="{{ url('img/mobile.png') }}" alt=""
-                 style="left: 700px; top: 100px; max-height: 500px;max-width: 500px;"
+                 style="left: 700px; top:100px; max-height: 500px;max-width: 500px;"
                  data-type="image"
                  data-delay="1000"
                  data-effect="right(short)"
             />
 
             <img class="ms-layer" src="masterslider/blank.gif" data-src="img/slider/slider-line.jpg" alt=""
-                 style="left: 0; top: 170px;"
+                 style="left: 80px; top: 190px;"
                  data-type="image"
                  data-effect="left(short)"
                  data-delay="0"
                     />
 
             <h2 class="ms-layer pi-caption01"
-                style="left: 0; top: 195px;"
+                style="left: 80px; top: 230px;"
                 data-type="text"
                 data-effect="left(short)"
                 data-delay="300"
@@ -31,7 +31,7 @@
             </h2>
 
             <h2 class="ms-layer pi-caption01"
-                style="left: 0; top: 260px;"
+                style="left: 80px; top: 290px;"
                 data-type="text"
                 data-effect="left(short)"
                 data-delay="600"
@@ -39,7 +39,7 @@
                 Online.
             </h2>
             <p class="ms-layer pi-text"
-               style="font-size:20px; line-height: 30px; left: 0px; top: 430px;"
+               style="font-size:20px; line-height: 30px; left: 80px; top: 400px;"
                data-type="text"
                data-delay="1600"
             >
