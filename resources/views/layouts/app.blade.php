@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TruckJee - Online Truck Hiring Marketplace</title>
+    <title>TruckJee.com - Online Truck Hiring Marketplace</title>
     <meta name="description" content="TruckJee is India's first online truck hiring marketplace designed and aimed at creating a transparent truck aggregation system">
     <meta name="author" content="Younus Farveaz">
     <meta name="keywords" content="transportation, logistics, transportation, logistics, cargo, business">
