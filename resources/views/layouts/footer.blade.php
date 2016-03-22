@@ -62,7 +62,7 @@
                         <ul class="footer-social-icons">
                             <li><a href="http://www.facebook.com/TruckJee" target="_blank" class="fa fa-facebook"></a></li>
                             <li><a href="https://www.linkedin.com/company/truckjee" target="_blank" class="fa fa-linkedin"></a></li>
-                            <li><a href="www.google.com/+TruckJee"  target="_blank" class="fa fa-google-plus"></a></li>
+                            <li><a href="https://www.google.com/+TruckJee"  target="_blank" class="fa fa-google-plus"></a></li>
                         </ul><!-- .footer-social-icons end -->
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
