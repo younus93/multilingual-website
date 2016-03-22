@@ -43,7 +43,7 @@
                data-type="text"
                data-delay="1600"
             >
-                TruckJee is an online platform used by various <br>organizations to hire trucks online!<br>
+                TruckJee is an online platform used by various <br>businesses to hire trucks online!<br>
                 Give a missed call at <strong>9375551122</strong> to get started!
             </p>
 
