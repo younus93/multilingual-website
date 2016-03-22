@@ -59,11 +59,11 @@
                         <br />
                         <a href="mailto:">info@truckjee.com</a>
                         <br />
-                        {{--<ul class="footer-social-icons">--}}
-                            {{--<li><a href="#" class="fa fa-facebook"></a></li>--}}
-                            {{--<li><a href="#" class="fa fa-twitter"></a></li>--}}
-                            {{--<li><a href="#" class="fa fa-google-plus"></a></li>--}}
-                        {{--</ul><!-- .footer-social-icons end -->--}}
+                        <ul class="footer-social-icons">
+                            <li><a href="http://www.facebook.com/TruckJee" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.linkedin.com/company/truckjee" class="fa fa-linkedin"></a></li>
+                            <li><a href="https://plus.google.com/118334927905470135097" class="fa fa-google-plus"></a></li>
+                        </ul><!-- .footer-social-icons end -->
                     </li><!-- .widget.widget-text end -->
                 </ul><!-- .col-md-3.footer-widget-container end -->
                 {{--<ul class="col-md-3 col-sm-6 footer-widget-container">--}}
