@@ -204,5 +204,28 @@ return [
                                         infrastructure for connectivity in rural areas aided TruckJee in creating and testing a strong system to replace the existing
                                         truck hiring practices in the country.
                                         On understanding how TruckJee works, many transporters offered to be part of TruckJee's beta phase which is currently in process.
-                                        After a successful launch, TruckJee is out to change the way Transportation happens in the country."
+                                        After a successful launch, TruckJee is out to change the way Transportation happens in the country.",
+
+
+     /*
+     * Namakkal Launch Page
+     */
+    'namakkal_launch'                        => 'TruckJee Namakkal Inauguration',
+    'namakkal_launchdate'                   => 'April 15th, 2016.',
+
+    'namakkal_para1'                         => "TruckJee,  India’s first online transportation marketplace. Truckjee helps to facilitate the lorry transporation by providing direct communication between transporters and lorry owners.
+                                                 After the grand success of our launch at ITC grand chola, Truckjee extended its journey by opening a new branch at Namakkal.",
+
+    'namakkal_para2'                         => "N.T.L.O.A president Mr.Vangilee, Secretary Mr.Arul and Treasurer Mr.Srirangan marks their presence for the inauguration ceremony.
+                                                 Our Founder – director Mr.Younus Farveaz had Warmly welcome the above said deligates and presented the TruckJee  memento.",
+
+    'namakkal_para3'                         => "N.T.L.O.A president Mr.Vangilee had launched the Truckjee App. Secretary Mr.Arul and Treasurer Mr.Srirangan had also complimented.",
+
+    'namakkal_para4'                         =>  "A video explaining the concept of TruckJee had displayed.
+                                                 The deligates and the lorry owners had seen and understood the concept and shown their interest of becoming the member in Truckjee and
+                                                  some of the lorry owners had registered to became the members of Truckjee.",
+
+    'namakkal_para5'                          => "N.T.L.O.A president Mr.Vangilee and Secretary Mr.Arul handover the TruckJee welcome kit to the first member registered in namakkal office.
+                                                 Many of the lorry owners had registered themselves in the event and encouraged Truckjee ."
+
 ];

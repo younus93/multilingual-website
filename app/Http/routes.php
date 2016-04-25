@@ -62,6 +62,10 @@ Route::group(['middleware' => ['web']], function (){
         return view('launch');
     });
 
+    Route::get('/namakkal_launch',function(){
+        return view('namakkal_launch');
+    });
+
     Route::get('track/{imei}/{vehicle}', "TrackingController@track");
 
 });
