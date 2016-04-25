@@ -34,7 +34,7 @@
                             <li><a href="{{ url('/transporters') }}">Transporters</a></li>
                             <li><a href="{{ url('/truck-owners') }}">Truck Owners</a></li>
                             <li><a href="{{ url('/launch') }}">Launch</a></li>
-                            <li><a href="{{ url('/namakkal_launch') }}">Namakkal Launch</a></li>
+                            <li><a href="{{ url('/namakkal-launch') }}">Namakkal Launch</a></li>
                             <li><a href="{{ url('/careers') }}">Careers</a></li>
                             <li><a href="{{ url('/terms-and-conditions') }}">Terms and Conditions</a></li>
                         </ul>

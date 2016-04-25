@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
     <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/lightbox.css"/>
 
 
     <!-- Google Web fonts -->
@@ -54,15 +55,13 @@
 
 @include('layouts.navbar')
 
-
-
-
 <!-- </div> -->
 
 
 @yield('content')
 
 @include('layouts.footer')
+<script src="js/lightbox.js"></script><!-- lightbox js functions -->
 
 @yield('scripts')
 

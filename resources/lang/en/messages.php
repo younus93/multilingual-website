@@ -210,22 +210,25 @@ return [
      /*
      * Namakkal Launch Page
      */
-    'namakkal_launch'                        => 'TruckJee Namakkal Inauguration',
+    'namakkal-launch'                        => 'TruckJee Namakkal Inauguration',
     'namakkal_launchdate'                   => 'April 15th, 2016.',
 
-    'namakkal_para1'                         => "TruckJee,  India’s first online transportation marketplace. Truckjee helps to facilitate the lorry transporation by providing direct communication between transporters and lorry owners.
-                                                 After the grand success of our launch at ITC grand chola, Truckjee extended its journey by opening a new branch at Namakkal.",
+    'namakkal_para1'                         => "India's first online truck hiring marketplace allowing organizations to hire trucks electronically by improving online transportation infrastructure, increasing truck visibility, access and connectivity.
+                                                 TruckJee is a start up established at chennai, a B2B marketplace connecting transporting businesses directly to truck owners, which has shown a significant decrease in truck hiring cost to these organizations and
+                                                 increases the average trips per truck for an owner which at the end of the day proves to be a sizable profit for both the parties.",
 
-    'namakkal_para2'                         => "N.T.L.O.A president Mr.Vangilee, Secretary Mr.Arul and Treasurer Mr.Srirangan marks their presence for the inauguration ceremony.
-                                                 Our Founder – director Mr.Younus Farveaz had Warmly welcome the above said deligates and presented the TruckJee  memento.",
+    'namakkal_para2'                         => "TruckJee was launched by the late Chief Minister of Jammu Kashmir, Mr. Mufti Mohammad Sayeed who described the idea as \"stunning\" and inspired the team to work relentless unless we have reached the nook and corner of the country.
+                                                 After the grand launch at chennai, Truckjee extended its new chapter at Namakkal.",
 
-    'namakkal_para3'                         => "N.T.L.O.A president Mr.Vangilee had launched the Truckjee App. Secretary Mr.Arul and Treasurer Mr.Srirangan had also complimented.",
 
-    'namakkal_para4'                         =>  "A video explaining the concept of TruckJee had displayed.
-                                                 The deligates and the lorry owners had seen and understood the concept and shown their interest of becoming the member in Truckjee and
-                                                  some of the lorry owners had registered to became the members of Truckjee.",
+    'namakkal_para3'                         => "Namakkal Taluk Lorry Owners Association(N.T.L.O.A) President Mr.Vangilee, Secretary Mr.Arul, Treasurer Mr.Srirangan and enthusiastic truck owners had graced the inauguration ceremony.
+                                                 Our Founder – Director Mr.Younus Farveaz and Co-Founder Mr.Jahir Hussain had Warmly welcomed the deligates.",
 
-    'namakkal_para5'                          => "N.T.L.O.A president Mr.Vangilee and Secretary Mr.Arul handover the TruckJee welcome kit to the first member registered in namakkal office.
-                                                 Many of the lorry owners had registered themselves in the event and encouraged Truckjee ."
+    'namakkal_para4'                         => "N.T.L.O.A President Mr.Vangilee had launched the Truckjee App. Secretary Mr.Arul and Treasurer Mr.Srirangan had also complimented.",
+
+    'namakkal_para5'                         =>  "The deligates and the lorry owners were shown the video explaining the concept of Truckjee which kindle their enthusiasm and few lorry owners signed up in Truckjee.",
+
+    'namakkal_para6'                          => "N.T.L.O.A President Mr.Vangilee and Secretary Mr.Arul presented the TruckJee welcome kit to the first member Mr.N.Gunasekaran who registered in namakkal office.
+                                                  Owing to the immense response, operations at namakkal begins immediately."
 
 ];
