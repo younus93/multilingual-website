@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row launch">
                 <div class="custom-heading">
-                    <h2>{{ trans('namakkal-launch') }}</h2>
+                    <h2>{{ trans('messages.namakkal_launch') }}</h2>
                 </div>
                 <p class="text-big">
                     {{ trans('messages.namakkal_launchdate') }}
@@ -26,7 +26,9 @@
             <div class="row launch">
                 <div class="col-md-4">
                     <a href="img/namakkal-launch/7.jpg" data-lightbox="7">
-                   <img src="img/namakkal-launch/7.jpg" alt="chief minsiter"></a>
+                   <img src="img/namakkal-launch/7.jpg" alt="chief minsiter">
+                   {{--<img id="closeButton" src="img/close.png" style="position: absolute; z-index: 200;">--}}
+                    </a>
                     <p>N.T.L.O.A president Mr.Vangilee inaugurating TruckJee</p>
                 </div>
                 <div class="col-md-4">

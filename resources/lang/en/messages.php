@@ -210,7 +210,7 @@ return [
      /*
      * Namakkal Launch Page
      */
-    'namakkal-launch'                        => 'TruckJee Namakkal Inauguration',
+    'namakkal_launch'                        => 'Office Opening at Namakkal',
     'namakkal_launchdate'                   => 'April 15th, 2016.',
 
     'namakkal_para1'                         => "India's first online truck hiring marketplace allowing organizations to hire trucks electronically by improving online transportation infrastructure, increasing truck visibility, access and connectivity.
