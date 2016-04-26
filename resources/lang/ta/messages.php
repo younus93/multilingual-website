@@ -162,7 +162,7 @@ return [
    * namakkal launch
    */
 
-    'namakkal_launch'                =>'நாமக்கல தொடக்க விழா:',
+    'namakkal_launch'                =>'நாமக்கல் அலுவலகம் தொடக்க விழா',
 
     'namakkal_launchdate'            => 'ஏப்ரல் 15,2016. ',
 
